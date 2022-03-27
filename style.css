@@ -1,0 +1,33 @@
+* {
+	box-sizing:border-box;
+}
+body {
+	background-image: linear-gradient(#ff0000, #ff4200);
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	overflow: hidden;
+	margin: 0;
+}
+
+div {
+	position: center;
+	bottom: 20px;
+	background:rgba(0,0,0,0.1);
+	padding: 10px 20px;
+	font-size: 18px;
+}
+input {
+	width: 50px;
+	padding: 5px;
+	font-size: 18px;
+	background-image: linear-gradient(#ff0000, #ff4200);
+	border: None;
+	text-align: center;
+}
+input:focus{
+	outline:None;
+}
+	
